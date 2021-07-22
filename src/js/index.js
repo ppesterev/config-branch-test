@@ -13,5 +13,7 @@ window.addEventListener("DOMContentLoaded", () => {
     }
     document.title = settings.title;
     heading.textContent = settings.title;
+
+    document.body.style.backgroundColor = settings.color;
   });
 });
